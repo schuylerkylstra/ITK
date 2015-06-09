@@ -22,10 +22,6 @@
 
 /* Use the png library configured for ITK.  */
 #include "itkThirdParty.h"
-#ifdef ITK_USE_SYSTEM_PNG
-# include <png.h>
-#else
-# include <itkpng/png.h>
-#endif
+#include <itkpng/png.h>
 
 #endif
